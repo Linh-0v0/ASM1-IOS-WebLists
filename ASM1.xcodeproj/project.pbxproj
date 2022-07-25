@@ -11,6 +11,17 @@
 		C44C135D288B95E8008AACE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C135C288B95E8008AACE1 /* ContentView.swift */; };
 		C44C135F288B95ED008AACE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C135E288B95ED008AACE1 /* Assets.xcassets */; };
 		C44C1362288B95ED008AACE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C1361288B95ED008AACE1 /* Preview Assets.xcassets */; };
+		C44C136F288C1BB8008AACE1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C136E288C1BB8008AACE1 /* ItemView.swift */; };
+		C44C1371288C1BE1008AACE1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1370288C1BE1008AACE1 /* Item.swift */; };
+		C44C1373288C1CDA008AACE1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1372288C1CDA008AACE1 /* ModelData.swift */; };
+		C44C1375288C222D008AACE1 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1374288C222D008AACE1 /* ColorConstants.swift */; };
+		C44C1377288D6CEA008AACE1 /* ItemDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1376288D6CEA008AACE1 /* ItemDescr.swift */; };
+		C44C1379288DA3EF008AACE1 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1378288DA3EF008AACE1 /* ButtonAnimation.swift */; };
+		C44C137B288E3A1C008AACE1 /* BackArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C137A288E3A1C008AACE1 /* BackArrow.swift */; };
+		C44C137E288E4CB6008AACE1 /* Sarabun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C137D288E4CB6008AACE1 /* Sarabun-Bold.ttf */; };
+		C44C1381288E4D5F008AACE1 /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C1380288E4D5F008AACE1 /* Inter.ttf */; };
+		C44C1383288E4D9A008AACE1 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C1382288E4D9A008AACE1 /* Inter-Bold.ttf */; };
+		C44C1385288E4E5A008AACE1 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C1384288E4E5A008AACE1 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		C44C135C288B95E8008AACE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C44C135E288B95ED008AACE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44C1361288B95ED008AACE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C44C136E288C1BB8008AACE1 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		C44C1370288C1BE1008AACE1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C44C1372288C1CDA008AACE1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C44C1374288C222D008AACE1 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		C44C1376288D6CEA008AACE1 /* ItemDescr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDescr.swift; sourceTree = "<group>"; };
+		C44C1378288DA3EF008AACE1 /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
+		C44C137A288E3A1C008AACE1 /* BackArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackArrow.swift; sourceTree = "<group>"; };
+		C44C137D288E4CB6008AACE1 /* Sarabun-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sarabun-Bold.ttf"; path = "Sarabun/Sarabun-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		C44C137F288E4CDE008AACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C44C1380288E4D5F008AACE1 /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter.ttf; path = Inter/Inter.ttf; sourceTree = SOURCE_ROOT; };
+		C44C1382288E4D9A008AACE1 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Bold.ttf"; path = "Inter/static/Inter-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		C44C1384288E4E5A008AACE1 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "Inter/static/Inter-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,10 @@
 		C44C1359288B95E8008AACE1 /* ASM1 */ = {
 			isa = PBXGroup;
 			children = (
+				C44C137F288E4CDE008AACE1 /* Info.plist */,
+				C44C137C288E4C5A008AACE1 /* fonts */,
+				C44C136D288C1B69008AACE1 /* Views */,
+				C44C136C288C1B63008AACE1 /* Model */,
 				C44C135A288B95E8008AACE1 /* ASM1App.swift */,
 				C44C135C288B95E8008AACE1 /* ContentView.swift */,
 				C44C135E288B95ED008AACE1 /* Assets.xcassets */,
@@ -65,6 +92,38 @@
 				C44C1361288B95ED008AACE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C44C136C288C1B63008AACE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C44C1370288C1BE1008AACE1 /* Item.swift */,
+				C44C1372288C1CDA008AACE1 /* ModelData.swift */,
+				C44C1374288C222D008AACE1 /* ColorConstants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C44C136D288C1B69008AACE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C44C136E288C1BB8008AACE1 /* ItemView.swift */,
+				C44C1376288D6CEA008AACE1 /* ItemDescr.swift */,
+				C44C1378288DA3EF008AACE1 /* ButtonAnimation.swift */,
+				C44C137A288E3A1C008AACE1 /* BackArrow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C44C137C288E4C5A008AACE1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C44C1380288E4D5F008AACE1 /* Inter.ttf */,
+				C44C1382288E4D9A008AACE1 /* Inter-Bold.ttf */,
+				C44C1384288E4E5A008AACE1 /* Inter-SemiBold.ttf */,
+				C44C137D288E4CB6008AACE1 /* Sarabun-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +184,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44C1385288E4E5A008AACE1 /* Inter-SemiBold.ttf in Resources */,
 				C44C1362288B95ED008AACE1 /* Preview Assets.xcassets in Resources */,
+				C44C1383288E4D9A008AACE1 /* Inter-Bold.ttf in Resources */,
+				C44C137E288E4CB6008AACE1 /* Sarabun-Bold.ttf in Resources */,
 				C44C135F288B95ED008AACE1 /* Assets.xcassets in Resources */,
+				C44C1381288E4D5F008AACE1 /* Inter.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44C1371288C1BE1008AACE1 /* Item.swift in Sources */,
 				C44C135D288B95E8008AACE1 /* ContentView.swift in Sources */,
+				C44C1373288C1CDA008AACE1 /* ModelData.swift in Sources */,
+				C44C137B288E3A1C008AACE1 /* BackArrow.swift in Sources */,
+				C44C1375288C222D008AACE1 /* ColorConstants.swift in Sources */,
+				C44C1379288DA3EF008AACE1 /* ButtonAnimation.swift in Sources */,
+				C44C136F288C1BB8008AACE1 /* ItemView.swift in Sources */,
+				C44C1377288D6CEA008AACE1 /* ItemDescr.swift in Sources */,
 				C44C135B288B95E8008AACE1 /* ASM1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +339,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ASM1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASM1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ASM1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ASM1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

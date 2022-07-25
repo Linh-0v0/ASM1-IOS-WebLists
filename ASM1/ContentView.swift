@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        GeometryReader { geometry in
+            VStack {
+                Image("Screen Shot 2022-07-24 at 12.16.22")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(width: geometry.size.width, height: geometry.size.height*0.55)
+                ItemDescr()
+                    .offset(y: -30)
+            }
+        }
     }
 }
 
