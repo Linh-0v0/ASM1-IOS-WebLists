@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ItemDescr: View {
-    var paddingLeft: CGFloat = 37.0;
-    var minHeight: CGFloat = 380.0;
+    var website: Item
     
     var body: some View {
+        let paddingLeft: CGFloat = 37.0
+        let minHeight: CGFloat = 390.0
+        
         ZStack {
             RoundedRectangle(cornerRadius: 30)
                 .foregroundColor(ColorConstants.bgDescr)
@@ -22,7 +24,7 @@ struct ItemDescr: View {
                     VStack(alignment: .leading) {
                         HStack{
                             Spacer().frame(width: paddingLeft)
-                            Text("Staggering beauty")
+                            Text(website.name)
                                 .font(Font.custom("Sarabun-Bold", size: 25))
                                 .frame(height: 80)
                                 .padding(.top, 25)
@@ -37,8 +39,8 @@ struct ItemDescr: View {
                         
                         HStack {
                             Spacer().frame(width: paddingLeft)
-                            Text("A fairly peculiar little web toy called Staggering Beauty features a long, black figure that just wiggles in accordance with the mouse cursor's motions.")
-                                .font(Font.custom("Inter", size: 13)).foregroundColor(ColorConstants.textDescr)
+                            Text(website.descr)
+                                .font(Font.custom("Inter-Light", size: 13)).foregroundColor(ColorConstants.textDescr)
                                 .frame(width:geometry.size.width*0.8 )
                         }
                         .padding(.bottom, 35)
@@ -51,7 +53,7 @@ struct ItemDescr: View {
                                 print("Button clicked")
                             }
                             .buttonStyle(ButtonAnimation())
-                            Link("Visit Here", destination: URL(string: "https://www.staggeringbeauty.com")!)
+                            Link("Visit Here", destination: URL(string: website.link)!)
                                 .foregroundColor(.white)
                         }
                     }
@@ -63,7 +65,6 @@ struct ItemDescr: View {
 
 struct ItemDescr_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDescr()
-            .previewLayout(.sizeThatFits)
+        ItemDescr(website: websites[0])
     }
 }

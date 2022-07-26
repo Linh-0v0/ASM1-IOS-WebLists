@@ -8,26 +8,29 @@
 import SwiftUI
 
 struct ItemView: View {
+    var website: Item
+    
+    
     var body: some View {
         ZStack {
-            BackArrow().zIndex(100).position(x: 40, y: 20)
             GeometryReader { geometry in
                 VStack {
-                    Image("Screen Shot 2022-07-24 at 12.16.22")
+                    Image(website.imageName)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .edgesIgnoringSafeArea(.top)
                         .frame(width: geometry.size.width, height: geometry.size.height*0.55)
-                    ItemDescr()
+                    ItemDescr(website: website)
                         .offset(y: -30)
                 }
             }
         }
+        .navigationTitle(website.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct ItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemView()
+        ItemView(website: websites[0])
     }
 }
