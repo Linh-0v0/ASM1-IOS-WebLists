@@ -23,6 +23,8 @@
 		C44C1387288F9FB7008AACE1 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C1386288F9FB7008AACE1 /* Inter-Light.ttf */; };
 		C44C1389288FA13C008AACE1 /* WebsiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1388288FA13C008AACE1 /* WebsiteList.swift */; };
 		C44C138B288FBA23008AACE1 /* WebsiteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C138A288FBA23008AACE1 /* WebsiteLabel.swift */; };
+		C4D9C93E288FDD7700210335 /* WelcomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9C93D288FDD7700210335 /* WelcomeDetail.swift */; };
+		C4D9C940288FEB5400210335 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9C93F288FEB5400210335 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		C44C1386288F9FB7008AACE1 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Light.ttf"; path = "Inter/static/Inter-Light.ttf"; sourceTree = SOURCE_ROOT; };
 		C44C1388288FA13C008AACE1 /* WebsiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteList.swift; sourceTree = "<group>"; };
 		C44C138A288FBA23008AACE1 /* WebsiteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteLabel.swift; sourceTree = "<group>"; };
+		C4D9C93D288FDD7700210335 /* WelcomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeDetail.swift; sourceTree = "<group>"; };
+		C4D9C93F288FEB5400210335 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		C44C136D288C1B69008AACE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4D9C93C288FDD6800210335 /* WelcomeView */,
 				C44C136E288C1BB8008AACE1 /* ItemView.swift */,
 				C44C1376288D6CEA008AACE1 /* ItemDescr.swift */,
 				C44C1378288DA3EF008AACE1 /* ButtonAnimation.swift */,
@@ -127,6 +132,15 @@
 				C44C137D288E4CB6008AACE1 /* Sarabun-Bold.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		C4D9C93C288FDD6800210335 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C4D9C93D288FDD7700210335 /* WelcomeDetail.swift */,
+				C4D9C93F288FEB5400210335 /* WelcomeView.swift */,
+			);
+			path = WelcomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +223,8 @@
 				C44C1375288C222D008AACE1 /* ColorConstants.swift in Sources */,
 				C44C1389288FA13C008AACE1 /* WebsiteList.swift in Sources */,
 				C44C1379288DA3EF008AACE1 /* ButtonAnimation.swift in Sources */,
+				C4D9C93E288FDD7700210335 /* WelcomeDetail.swift in Sources */,
+				C4D9C940288FEB5400210335 /* WelcomeView.swift in Sources */,
 				C44C136F288C1BB8008AACE1 /* ItemView.swift in Sources */,
 				C44C138B288FBA23008AACE1 /* WebsiteLabel.swift in Sources */,
 				C44C1377288D6CEA008AACE1 /* ItemDescr.swift in Sources */,
