@@ -12,6 +12,8 @@ struct ItemView: View {
     
     
     var body: some View {
+        let minHeightDescr: CGFloat = 390.0
+        
         ZStack {
             GeometryReader { geometry in
                 VStack {
@@ -19,8 +21,17 @@ struct ItemView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: geometry.size.width, height: geometry.size.height*0.55)
-                    ItemDescr(website: website)
-                        .offset(y: -30)
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .foregroundColor(ColorConstants.bgDescr)
+                            .frame(minHeight: minHeightDescr)
+                        ScrollView {
+                            ItemDescr(website: website)
+                                .zIndex(10)
+                                .frame(height: minHeightDescr)
+                        }
+                    }
+                    .offset(y: -30)
                 }
             }
         }

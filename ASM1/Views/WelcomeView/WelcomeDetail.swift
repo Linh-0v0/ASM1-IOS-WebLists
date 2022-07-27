@@ -39,6 +39,7 @@ struct WelcomeDetail: View {
                             .foregroundColor(.white))
                 })
                 .zIndex(100)
+                .padding(.bottom, 20)
             }
         }
     }
