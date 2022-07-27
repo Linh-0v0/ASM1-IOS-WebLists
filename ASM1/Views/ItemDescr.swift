@@ -25,7 +25,7 @@ struct ItemDescr: View {
                         HStack{
                             Spacer().frame(width: paddingLeft)
                             Text(website.name)
-                                .font(Font.custom("Sarabun-Bold", size: 25))
+                                .font(Font.custom("Sarabun-Bold", size: 27))
                                 .frame(height: 80)
                                 .padding(.top, 25)
                         }
@@ -33,14 +33,14 @@ struct ItemDescr: View {
                         HStack{
                             Spacer().frame(width: paddingLeft)
                             Text("About")
-                                .font(Font.custom("Inter-Bold", size: 15))
+                                .font(Font.custom("Inter-Bold", size: 19))
                                 .padding(.bottom, 15)
                         }
                         
                         HStack {
                             Spacer().frame(width: paddingLeft)
                             Text(website.descr)
-                                .font(Font.custom("Inter-Light", size: 13)).foregroundColor(ColorConstants.textDescr)
+                                .font(Font.custom("Inter-Light", size: 16)).foregroundColor(ColorConstants.textDescr)
                                 .frame(width:geometry.size.width*0.8 )
                         }
                         .padding(.bottom, 35)
@@ -57,6 +57,7 @@ struct ItemDescr: View {
                                 .foregroundColor(.white)
                         }
                     }
+                    .padding(.bottom, 50)
                 }.frame(minHeight: minHeight)
             }
         }
