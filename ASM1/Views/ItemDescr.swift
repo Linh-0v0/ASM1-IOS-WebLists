@@ -15,7 +15,7 @@ struct ItemDescr: View {
         let minHeight: CGFloat = 390.0
         
         ZStack {
-            RoundedRectangle(cornerRadius: 30)
+            RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(ColorConstants.bgDescr)
                 .frame(minHeight: minHeight)
             
