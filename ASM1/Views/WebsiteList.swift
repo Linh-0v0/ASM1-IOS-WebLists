@@ -8,18 +8,24 @@
 import SwiftUI
 
 struct WebsiteList: View {
+    @StateObject private var vm = ContentViewModel()
+    
     var body: some View {
-        NavigationView {
-            List(websites) {
-                website in NavigationLink {
-                    ItemView(website: website)
-                    
-                } label: {
-                    WebsiteLabel(website: website)
+        VStack {
+            NavigationView {
+                List(vm.webList) {
+                    website in NavigationLink {
+                        ItemView(website: website)
+                        
+                    } label: {
+                        WebsiteLabel(website: website)
+                    }
+                    .navigationTitle("Wacky Websites")
                 }
-                .navigationTitle("Wacky Websites")
             }
+            SortButton(vm: vm)
         }
+        
     }
 }
 

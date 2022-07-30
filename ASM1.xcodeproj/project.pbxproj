@@ -23,6 +23,8 @@
 		C44C1387288F9FB7008AACE1 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44C1386288F9FB7008AACE1 /* Inter-Light.ttf */; };
 		C44C1389288FA13C008AACE1 /* WebsiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C1388288FA13C008AACE1 /* WebsiteList.swift */; };
 		C44C138B288FBA23008AACE1 /* WebsiteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C138A288FBA23008AACE1 /* WebsiteLabel.swift */; };
+		C44D34902894DC9D007EA51A /* SortButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D348F2894DC9D007EA51A /* SortButton.swift */; };
+		C44D34922894E3B4007EA51A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D34912894E3B4007EA51A /* ContentViewModel.swift */; };
 		C4D9C93E288FDD7700210335 /* WelcomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9C93D288FDD7700210335 /* WelcomeDetail.swift */; };
 		C4D9C940288FEB5400210335 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9C93F288FEB5400210335 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		C44C1386288F9FB7008AACE1 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Light.ttf"; path = "Inter/static/Inter-Light.ttf"; sourceTree = SOURCE_ROOT; };
 		C44C1388288FA13C008AACE1 /* WebsiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteList.swift; sourceTree = "<group>"; };
 		C44C138A288FBA23008AACE1 /* WebsiteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteLabel.swift; sourceTree = "<group>"; };
+		C44D348F2894DC9D007EA51A /* SortButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortButton.swift; sourceTree = "<group>"; };
+		C44D34912894E3B4007EA51A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		C4D9C93D288FDD7700210335 /* WelcomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeDetail.swift; sourceTree = "<group>"; };
 		C4D9C93F288FEB5400210335 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +109,6 @@
 				C44C1370288C1BE1008AACE1 /* Item.swift */,
 				C44C1372288C1CDA008AACE1 /* ModelData.swift */,
 				C44C1374288C222D008AACE1 /* ColorConstants.swift */,
-				C44C135C288B95E8008AACE1 /* ContentView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +122,9 @@
 				C44C1378288DA3EF008AACE1 /* ButtonAnimation.swift */,
 				C44C1388288FA13C008AACE1 /* WebsiteList.swift */,
 				C44C138A288FBA23008AACE1 /* WebsiteLabel.swift */,
+				C44D348F2894DC9D007EA51A /* SortButton.swift */,
+				C44D34912894E3B4007EA51A /* ContentViewModel.swift */,
+				C44C135C288B95E8008AACE1 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,11 +230,13 @@
 				C44C1389288FA13C008AACE1 /* WebsiteList.swift in Sources */,
 				C44C1379288DA3EF008AACE1 /* ButtonAnimation.swift in Sources */,
 				C4D9C93E288FDD7700210335 /* WelcomeDetail.swift in Sources */,
+				C44D34902894DC9D007EA51A /* SortButton.swift in Sources */,
 				C4D9C940288FEB5400210335 /* WelcomeView.swift in Sources */,
 				C44C136F288C1BB8008AACE1 /* ItemView.swift in Sources */,
 				C44C138B288FBA23008AACE1 /* WebsiteLabel.swift in Sources */,
 				C44C1377288D6CEA008AACE1 /* ItemDescr.swift in Sources */,
 				C44C135B288B95E8008AACE1 /* ASM1App.swift in Sources */,
+				C44D34922894E3B4007EA51A /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
