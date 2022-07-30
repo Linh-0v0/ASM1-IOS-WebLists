@@ -12,7 +12,8 @@ struct ItemView: View {
     
     
     var body: some View {
-        let minHeightDescr: CGFloat = 390.0
+        let rectContainer: CGFloat = 390.0
+        let rectScrollView: CGFloat = 430.0
         
         ZStack {
             GeometryReader { geometry in
@@ -24,11 +25,11 @@ struct ItemView: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
                             .foregroundColor(ColorConstants.bgDescr)
-                            .frame(minHeight: minHeightDescr)
+                            .frame(minHeight: rectContainer)
                         ScrollView {
                             ItemDescr(website: website)
                                 .zIndex(10)
-                                .frame(height: minHeightDescr)
+                                .frame(height: rectScrollView)
                         }
                     }
                     .offset(y: -30)
